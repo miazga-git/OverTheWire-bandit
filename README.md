@@ -117,6 +117,56 @@ file datax9
 cat datax9
 ```
 
+## Level 13
+```python
+ls
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+```
+
+## Level 14
+```python
+nc localhost 30000
+```
+
+## Level 15
+```python
+openssl s_client localhost:30000
+```
+
+## Level 16
+```python
+nmap localhost --script ssl-enum-ciphers -p 31000-32000
+openssl s_client -ign_eof -connect localhost:31790
+```
+
+## Level 17
+```python
+diff passwords.new passwords.old
+```
+
+## Level 18
+```python
+ssh -T bandit18@bandit.labs.overthewire.org -p 2220 ls
+ssh -T bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+```
+
+## Level 19
+```python
+cd /etc/bandit_pass
+/home/bandit19/bandit20-do cat bandit20
+```
+
+## Level 15
+```python
+openssl s_client localhost:30000
+```
+
+
+
+## Level 15
+```python
+openssl s_client localhost:30000
+```
 *To be continued*
 
 
